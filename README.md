@@ -2,6 +2,20 @@
 
 A Stripe-inspired payments dashboard built for the Chargeblast front-end project. It uses 500 reproducible mock payments across seven currencies to demonstrate browsing, filtering, inspecting, and exporting transactions. The app runs on local fixtures without Stripe credentials or environment variables.
 
+## Screenshots
+
+### Payments with sidebar
+
+![Payments dashboard with the sidebar open, active search, date and payment method filters, and the CSV export button enabled](docs/screenshots/Screenshot_List_Payments_Menu.png)
+
+### Filtered payments
+
+![Payments list with the sidebar collapsed and one blocked payment matching the active filters](docs/screenshots/Screenshot_List_Payments.png)
+
+### Payment details
+
+![Succeeded payment showing the customer, masked payment method, event timeline, and metadata](docs/screenshots/Screenshot_Detail_Payment.png)
+
 ## Pages
 
 | Route | Content |
@@ -77,4 +91,5 @@ Open [localhost:3000](http://localhost:3000).
 | [`src/hooks`](src/hooks) | Payment column interactions and mobile viewport detection. |
 | [`src/lib`](src/lib) | Filter parsing and validation, payment formatting, column definitions, and CSV export. |
 | [`src/data`](src/data) | Mock payments, payment events, and metadata. |
-| [`references`](references) | Chargeblast project brief and three design reference images. |
+| [`docs/screenshots`](docs/screenshots) | Screenshots of the implemented dashboard. |
+| [`references`](references) | Chargeblast project brief and design reference images. |
